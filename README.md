@@ -7,25 +7,39 @@
 
 [What reviewers look for (from Google Code Review Developer Guide, eng-practices)](https://google.github.io/eng-practices/review/#look_for)
 
-__Design__: Is the code well-designed and appropriate for your system?
+### __Design__
 
-__Functionality__: Does the code behave as the author likely intended? Is the way the code behaves good for its users?
+Is the code well-designed and appropriate for your system?
 
-__Complexity__: Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future?
+### __Functionality__
 
-__Tests__: Does the code have correct and well-designed automated tests?
+Does the code behave as the author likely intended? Is the way the code behaves good for its users?
 
-__Naming__: Did the developer choose clear names for variables, classes, methods, etc.?
+### __Complexity__
 
-__Comments__: Are the comments clear and useful?
+Could the code be made simpler? Would another developer be able to easily understand and use this code when they come across it in the future?
 
-__Style__: Does the code follow our style guides?
+### __Tests__
 
-__Documentation__: Did the developer also update relevant documentation?
+Does the code have correct and well-designed automated tests?
 
-## Code Review (Azure pipelines)
+### __Naming__
 
-source: [YAML(Azure Pipelines) Code Reviews Code Review Checklist](https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/azure-pipelines-yaml/#code-review-checklist)
+Did the developer choose clear names for variables, classes, methods, etc.?
+
+### __Comments__
+
+Are the comments clear and useful?
+
+### __Style__
+
+Does the code follow our style guides?
+
+### __Documentation__
+
+Did the developer also update relevant documentation?
+
+## [YAML (Azure Pipelines) Code Review Checklist](https://microsoft.github.io/code-with-engineering-playbook/code-reviews/recipes/azure-pipelines-yaml/#code-review-checklist)
 
 ### Pipeline Structure
 
@@ -94,6 +108,7 @@ source: [YAML(Azure Pipelines) Code Reviews Code Review Checklist](https://micro
     > - _readability is directly influenced by `modularity`. `Modular` code is logically separated (and easier to [mentally chunk](https://dictionary.apa.org/chunking))._
 
 10. Is the code easy to maintain and test?
+    > - The definition for _Testability refers to how easy it is to ensure correctness of code by means of writing tests for it._
 
 11. Are premature optimizations in place?
 
