@@ -124,7 +124,6 @@ Did the developer also update relevant documentation?
 
 3. Are potential changes to data size considered and handled?
 
-
 4. Is the data structured forced to do operations not natively supported?
 
 5. Does the data structure support growth (i.e., scalability)?
